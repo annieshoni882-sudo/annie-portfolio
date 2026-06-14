@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annie Shoni | HR Specialist & Educator</title>
+    <meta name="description" content="Portfolio of Annie Shoni - HR Specialist, Educator, and Counsellor based in Kochi, India">
+    <meta name="keywords" content="Annie Shoni, HR Specialist, Educator, Counsellor, Kochi, India">
+    <meta name="author" content="Annie Shoni">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Annie Shoni | HR Specialist & Educator">
+    <meta property="og:description" content="Portfolio of Annie Shoni - HR Specialist, Educator, and Counsellor">
+    <meta property="og:image" content="annie.png">
+    <link rel="icon" type="image/png" href="annie.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loader" id="loader"><div class="loader-spinner"></div></div>
+    <div class="progress-bar" id="progressBar"></div>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Annie Shoni</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme"><i class="fas fa-moon" id="themeIcon"></i></button></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="nav-links">
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#education" class="mobile-link">Education</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+            <li><button class="theme-toggle" id="mobileThemeToggle" aria-label="Toggle Theme"><i class="fas fa-moon" id="mobileThemeIcon"></i></button></li>
+        </ul>
+    </div>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-left">
+                <div class="hero-badge">Welcome to my portfolio</div>
+                <h1>Hi, I am <span>Annie Shoni</span></h1>
+                <p class="hero-subtitle"><span class="typing-text" id="typingText"></span></p>
+                <p class="hero-description">A passionate HR Specialist, Educator, and Counsellor with extensive experience in strategic planning, policy implementation, and employee development. Currently shaping young minds at The Choice School, Kochi while bringing expertise in organizational development and people management.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Get In Touch</a>
+                    <a href="#experience" class="btn btn-secondary"><i class="fas fa-briefcase"></i> View Experience</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:annieshoni882@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+919400821512" class="social-link" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-right">
+                <div class="hero-image-wrapper">
+                    <img src="annie.png" alt="Annie Shoni - HR Specialist and Educator">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-header" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p>Bridging the gap between people and organizational excellence through HR expertise and educational leadership</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image" data-aos="fade-right">
+                <img src="annie.png" alt="Annie Shoni">
+                <div class="about-stats">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100"><div class="stat-number">5+</div><div class="stat-label">Years Experience</div></div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="200"><div class="stat-number">50+</div><div class="stat-label">Projects Led</div></div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300"><div class="stat-number">200+</div><div class="stat-label">Students Guided</div></div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="400"><div class="stat-number">4</div><div class="stat-label">Languages</div></div>
+                </div>
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3>Dedicated HR Professional and Educator</h3>
+                <p>I am a seasoned HR Specialist with broad experience in strategic planning, policy implementation, and employee development. My journey has taken me through prestigious organizations like Chris Group, Star Fibernet, and The Lalit Ashok, where I honed my skills in talent management and organizational development.</p>
+                <p>Currently, I serve as a Teacher and Counsellor at The Choice School, Kochi, where I combine my HR expertise with educational leadership to create nurturing environments for students and staff alike. I believe in building productive relationships across all organizational levels and fostering inclusive cultures.</p>
+                <p>My expertise spans payroll processing, recruitment, employee engagement, performance management, and succession planning. I am passionate about driving HR initiatives that meet organizational goals while ensuring employee satisfaction and growth.</p>
+                <div class="language-tags">
+                    <span class="language-tag">English</span>
+                    <span class="language-tag">Malayalam</span>
+                    <span class="language-tag">Tamil</span>
+                    <span class="language-tag">Hindi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="quote-section" data-aos="fade-up">
+            <p class="quote-text">People are the heart of every organization. My mission is to create environments where talent thrives, potential is realized, and every individual feels valued and empowered to contribute their best.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Professional Experience</h2>
+            <p>A journey through HR leadership, education, and organizational development</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content current-job">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Teacher and Counsellor</div>
+                            <div class="timeline-company">The Choice School, Kochi</div>
+                        </div>
+                        <span class="timeline-date">2025 - Present</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Kochi, Kerala, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Teaching and mentoring students with a focus on holistic development</li>
+                            <li>Providing counselling services to support student mental health and well-being</li>
+                            <li>Collaborating with faculty and parents to create supportive learning environments</li>
+                            <li>Implementing student engagement programs and wellness initiatives</li>
+                            <li>Conducting psychosocial assessments and developing intervention strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Head of HR</div>
+                            <div class="timeline-company">Chris Group of Companies</div>
+                        </div>
+                        <span class="timeline-date">Oct 2024 - Dec 2025</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Managed complete employee lifecycle from hiring to exit processes</li>
+                            <li>Developed and implemented HR strategies aligned with business goals</li>
+                            <li>Oversaw recruitment, interviews, background checks, and offer letters</li>
+                            <li>Managed employee relations, grievances, and disciplinary actions</li>
+                            <li>Designed and delivered training programs for new and existing employees</li>
+                            <li>Ensured compliance with employment laws through regular audits</li>
+                            <li>Analyzed survey data to assess employee satisfaction and coordinated benefits</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Manager</div>
+                            <div class="timeline-company">Star Fibernet</div>
+                        </div>
+                        <span class="timeline-date">Mar 2024 - Oct 2024</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Developed and implemented diversity initiatives across the organization</li>
+                            <li>Organized team-building activities to enhance workplace culture</li>
+                            <li>Managed performance reviews, disciplinary actions, and salary negotiations</li>
+                            <li>Assisted in HR policy development and maintenance</li>
+                            <li>Coordinated training programs and resolved complex HR issues</li>
+                            <li>Negotiated collective bargaining agreements and led onboarding processes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Associate</div>
+                            <div class="timeline-company">The Lalit Ashok</div>
+                        </div>
+                        <span class="timeline-date">Jul 2023 - Mar 2024</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Supported recruitment processes and maintained employee records</li>
+                            <li>Conducted onboarding sessions and managed employee relations</li>
+                            <li>Organized engagement activities and performed background checks</li>
+                            <li>Prepared compliance reports and documentation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Management Trainee</div>
+                            <div class="timeline-company">The Lalit Ashok</div>
+                        </div>
+                        <span class="timeline-date">Jun 2023 - Jul 2023</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Supported HR operations during the Aero Show Event</li>
+                            <li>Conducted recruitment and onboarding for event staff</li>
+                            <li>Researched labor market trends and developed wellness programs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Intern</div>
+                            <div class="timeline-company">The Lalit Ashok</div>
+                        </div>
+                        <span class="timeline-date">Feb 2023 - Apr 2023</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Conducted interviews and updated HRIS systems</li>
+                            <li>Facilitated onboarding processes and attendance updates</li>
+                            <li>Performed grooming audits and reference checks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Intern</div>
+                            <div class="timeline-company">Taj Hotels, Corporate Office</div>
+                        </div>
+                        <span class="timeline-date">Feb 2022 - Mar 2022</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Organized employee engagement activities</li>
+                            <li>Coordinated skill-building initiatives</li>
+                            <li>Conducted exit interviews and researched retention strategies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Intern</div>
+                            <div class="timeline-company">TCS (Tata Consultancy Services)</div>
+                        </div>
+                        <span class="timeline-date">Dec 2021 - Jan 2022</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Supported HR R&D team operations</li>
+                            <li>Gained hands-on experience with Oracle Cloud Payroll system</li>
+                            <li>Assisted in payroll processing and data management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item" data-aos="fade-up">
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">HR Intern</div>
+                            <div class="timeline-company">APD (Association of People with Disabilities)</div>
+                        </div>
+                        <span class="timeline-date">Oct 2021 - Nov 2021</span>
+                    </div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt"></i> Bengaluru, Karnataka, India</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Provided social work services to community members</li>
+                            <li>Facilitated therapy sessions and conducted psychosocial assessments</li>
+                            <li>Documented case histories and intervention outcomes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Skills and Expertise</h2>
+            <p>A comprehensive toolkit developed through years of hands-on experience in HR and education</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category" data-aos="fade-up">
+                <h3><i class="fas fa-users"></i> Core HR Skills</h3>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Human Resources Management</span><span class="skill-percent">95%</span></div><div class="skill-bar"><div class="skill-progress" data-width="95"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Recruitment and Hiring</span><span class="skill-percent">90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Employee Onboarding</span><span class="skill-percent">92%</span></div><div class="skill-bar"><div class="skill-progress" data-width="92"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Employee Relations</span><span class="skill-percent">88%</span></div><div class="skill-bar"><div class="skill-progress" data-width="88"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Performance Management</span><span class="skill-percent">85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85"></div></div></div>
+            </div>
+
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-chart-line"></i> Strategic Skills</h3>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Organizational Development</span><span class="skill-percent">90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Succession Planning</span><span class="skill-percent">82%</span></div><div class="skill-bar"><div class="skill-progress" data-width="82"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Change Management</span><span class="skill-percent">80%</span></div><div class="skill-bar"><div class="skill-progress" data-width="80"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Labor Relations</span><span class="skill-percent">85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Policy Development</span><span class="skill-percent">87%</span></div><div class="skill-bar"><div class="skill-progress" data-width="87"></div></div></div>
+            </div>
+
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="fas fa-heart"></i> People and Culture</h3>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Employee Engagement</span><span class="skill-percent">93%</span></div><div class="skill-bar"><div class="skill-progress" data-width="93"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Counselling and Therapy</span><span class="skill-percent">90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Team Building</span><span class="skill-percent">88%</span></div><div class="skill-bar"><div class="skill-progress" data-width="88"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Conflict Resolution</span><span class="skill-percent">85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Diversity and Inclusion</span><span class="skill-percent">90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90"></div></div></div>
+            </div>
+
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Payroll Processing</span><span class="skill-percent">92%</span></div><div class="skill-bar"><div class="skill-progress" data-width="92"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Oracle Cloud Payroll</span><span class="skill-percent">80%</span></div><div class="skill-bar"><div class="skill-progress" data-width="80"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">HRIS Systems</span><span class="skill-percent">85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Benefits Administration</span><span class="skill-percent">88%</span></div><div class="skill-bar"><div class="skill-progress" data-width="88"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span class="skill-name">Data Analysis</span><span class="skill-percent">82%</span></div><div class="skill-bar"><div class="skill-progress" data-width="82"></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-header" data-aos="fade-up">
+            <h2>Achievements</h2>
+            <p>Key milestones and accomplishments throughout my career</p>
+        </div>
+        <div class="achievements" data-aos="fade-up">
+            <div class="achievement"><i class="fas fa-star"></i> Head of HR at Chris Group</div>
+            <div class="achievement"><i class="fas fa-star"></i> HR Manager at Star Fibernet</div>
+            <div class="achievement"><i class="fas fa-star"></i> TCS Oracle Cloud Payroll Certified</div>
+            <div class="achievement"><i class="fas fa-star"></i> Masters in HR from Christ University</div>
+            <div class="achievement"><i class="fas fa-star"></i> Multilingual Professional (4 Languages)</div>
+            <div class="achievement"><i class="fas fa-star"></i> Social Work Experience at APD</div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Education</h2>
+            <p>Academic foundation that shaped my professional journey</p>
+        </div>
+        <div class="education-grid">
+            <div class="education-card" data-aos="fade-up">
+                <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3 class="education-degree">Master in Human Resources</h3>
+                <div class="education-school">Christ University</div>
+                <div class="education-year">Completed April 2023 | Bengaluru, India</div>
+                <p style="color:var(--text-secondary);margin-top:1rem;font-size:0.9rem;">Specialized in strategic HR management, organizational behavior, and talent development with practical industry exposure.</p>
+            </div>
+            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="education-icon"><i class="fas fa-brain"></i></div>
+                <h3 class="education-degree">Bachelor in Psychology</h3>
+                <div class="education-school">Kristu Jyoti College of Management and Technology</div>
+                <div class="education-year">Completed April 2021 | India</div>
+                <p style="color:var(--text-secondary);margin-top:1rem;font-size:0.9rem;">Foundation in human behavior, cognitive processes, and psychological assessment - essential for counselling and HR roles.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-header" data-aos="fade-up">
+            <h2>Interests and Passions</h2>
+            <p>Beyond the professional world, here is what drives me</p>
+        </div>
+        <div class="interests" data-aos="fade-up">
+            <div class="interest-item"><i class="fas fa-book-open"></i><span>Reading</span></div>
+            <div class="interest-item"><i class="fas fa-users"></i><span>Community Work</span></div>
+            <div class="interest-item"><i class="fas fa-heart"></i><span>Wellness</span></div>
+            <div class="interest-item"><i class="fas fa-chalkboard-teacher"></i><span>Teaching</span></div>
+            <div class="interest-item"><i class="fas fa-lightbulb"></i><span>Learning</span></div>
+            <div class="interest-item"><i class="fas fa-globe"></i><span>Travel</span></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Get In Touch</h2>
+            <p>Let us connect and explore how we can work together</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Let us Talk</h3>
+                <p>I am always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you are looking for HR consultancy, educational collaboration, or just want to say hello, I would love to hear from you.</p>
+                <div class="contact-details">
+                    <a href="mailto:annieshoni882@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div><strong>Email</strong><span>annieshoni882@gmail.com</span></div>
+                    </a>
+                    <a href="tel:+919400821512" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div><strong>Phone</strong><span>+91 94008 21512</span></div>
+                    </a>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div><strong>Location</strong><span>Kochi, Kerala, India</span></div>
+                    </div>
+                    <a href="https://linkedin.com" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div><strong>LinkedIn</strong><span>Connect on LinkedIn</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-left">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this about?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Annie Shoni</div>
+            <p class="footer-text">HR Specialist | Educator | Counsellor</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:annieshoni882@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+919400821512" class="social-link"><i class="fas fa-phone"></i></a>
+                <a href="https://github.com" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="footer-bottom">
+                <p>Designed with care by her brother. Built with passion.</p>
+                <p style="margin-top:0.5rem;">Annie Shoni &copy; 2026. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
